@@ -11,6 +11,7 @@ public class MainTest {
 
     @Test
     public void testMessageReturned() {
+        // trigger jenkins with this comment line
         String message = Main.createMessage();
         Assert.assertEquals("Hello World", message);
     }
