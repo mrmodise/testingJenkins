@@ -13,6 +13,8 @@ public class MainTest {
     public void testMessageReturned() {
         // trigger jenkins with this comment line
         String message = Main.createMessage();
+
+        // lets trigger the commit
         Assert.assertEquals("Hello World", message);
     }
 }
