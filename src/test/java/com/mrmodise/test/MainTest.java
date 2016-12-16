@@ -15,7 +15,7 @@ public class MainTest {
         String message = Main.createMessage();
 
         // lets trigger the commit
-        Assert.assertEquals("Hello World!!!", message);
+        Assert.assertEquals("Hello World", message);
 
         // adding comments to fire github hook
     }
