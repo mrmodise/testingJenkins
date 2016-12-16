@@ -16,5 +16,7 @@ public class MainTest {
 
         // lets trigger the commit
         Assert.assertEquals("Hello World", message);
+
+        // adding comments to fire github hook
     }
 }
